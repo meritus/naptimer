@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		8C06198418E745B90090A8FC /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C06198318E745B90090A8FC /* main.cpp */; };
 		8C06198618E745B90090A8FC /* nap_schedule.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8C06198518E745B90090A8FC /* nap_schedule.1 */; };
+		8C06198E18E745C80090A8FC /* Time.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C06198C18E745C80090A8FC /* Time.cpp */; };
+		8C06199F18E7551F0090A8FC /* Event.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C06199A18E7551F0090A8FC /* Event.cpp */; };
+		8C0619A318E755B90090A8FC /* Day.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C0619A118E755B90090A8FC /* Day.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +31,12 @@
 		8C06198018E745B90090A8FC /* nap_schedule */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = nap_schedule; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C06198318E745B90090A8FC /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8C06198518E745B90090A8FC /* nap_schedule.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = nap_schedule.1; sourceTree = "<group>"; };
+		8C06198C18E745C80090A8FC /* Time.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Time.cpp; sourceTree = "<group>"; };
+		8C06198D18E745C80090A8FC /* Time.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Time.h; sourceTree = "<group>"; };
+		8C06199A18E7551F0090A8FC /* Event.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Event.cpp; sourceTree = "<group>"; };
+		8C06199B18E7551F0090A8FC /* Event.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Event.h; sourceTree = "<group>"; };
+		8C0619A118E755B90090A8FC /* Day.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Day.cpp; sourceTree = "<group>"; };
+		8C0619A218E755B90090A8FC /* Day.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Day.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +69,14 @@
 		8C06198218E745B90090A8FC /* nap_schedule */ = {
 			isa = PBXGroup;
 			children = (
+				8C0619A218E755B90090A8FC /* Day.h */,
+				8C0619A118E755B90090A8FC /* Day.cpp */,
 				8C06198318E745B90090A8FC /* main.cpp */,
 				8C06198518E745B90090A8FC /* nap_schedule.1 */,
+				8C06198C18E745C80090A8FC /* Time.cpp */,
+				8C06198D18E745C80090A8FC /* Time.h */,
+				8C06199A18E7551F0090A8FC /* Event.cpp */,
+				8C06199B18E7551F0090A8FC /* Event.h */,
 			);
 			path = nap_schedule;
 			sourceTree = "<group>";
@@ -117,6 +132,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C06199F18E7551F0090A8FC /* Event.cpp in Sources */,
+				8C06198E18E745C80090A8FC /* Time.cpp in Sources */,
+				8C0619A318E755B90090A8FC /* Day.cpp in Sources */,
 				8C06198418E745B90090A8FC /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
