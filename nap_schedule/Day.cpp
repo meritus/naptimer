@@ -21,7 +21,7 @@ bool Day::addEvent(Event e){
     for (std::list<Event>::iterator it=events.begin(); it != events.end(); ++it)
         is_interfering=is_interfering||(*it).does_interfere(e);
     events.push_back(e);
-    //events.sort();
+    events.sort();
     return is_interfering;
 }
 
